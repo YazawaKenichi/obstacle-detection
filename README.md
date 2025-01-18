@@ -1,6 +1,6 @@
 # obstacle-detection
 
-地面に棒状の器具を当て、ロボットが走行不能となりうる凹凸・起伏・障害物を検知するパッケージ
+Raspberry Pi Pico + micro-ROS を用いてポテンショメータの値をパブリッシュする Raspberry Pi Pico 向けの組み込みプログラム
 
 # 使い方
 `obstacle_detection.uf2` を書き込む
