@@ -30,7 +30,6 @@ add_executable(obstacle_detection
 target_link_libraries(obstacle_detection
     pico_stdlib
     microros
-    hardware_adc
     )
 
 # obstacle_detection に libmicroros/include というインクルードディレクトリを設定
