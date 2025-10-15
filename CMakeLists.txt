@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/../micro_ros_raspberrypi_pico_sdk/micro_ros_pico_sdk_import.cmake)
 
 # obstacle_detection プロジェクトの作成
 # このプロジェクトは C 言語、C++ 言語、アセンブリ言語を使用
@@ -31,6 +32,7 @@ target_link_libraries(obstacle_detection
     pico_stdlib
     microros
     hardware_adc
+    hardware_gpio
     )
 
 # obstacle_detection に libmicroros/include というインクルードディレクトリを設定
